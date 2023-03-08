@@ -8,10 +8,10 @@ public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
         try {
             for (String str : args) {
-                if(!NumberUtils.isParsable(str)){
+                if(!NumberUtils.isNumber(str)){
                     return false;
                 }
-                if (Float.parseFloat(str) <= 0) {
+                if (NumberUtils.createFloat(str) <= 0) {
                     return false;
                 }
             }
