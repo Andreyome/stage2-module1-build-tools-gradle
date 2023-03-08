@@ -8,7 +8,7 @@ public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
         try {
             for (String str : args) {
-                if(!NumberUtils.isCreatable(str)){
+                if(!NumberUtils.isParsable(str)){
                     return false;
                 }
                 if (Float.parseFloat(str) <= 0) {
