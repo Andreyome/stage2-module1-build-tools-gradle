@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.epam.utils",
-    "module": "StringUtils",
+    "group": "com.epam.demo",
+    "module": "Utils",
     "version": "1.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "StringUtils-1.0.jar",
-          "url": "StringUtils-1.0.jar",
-          "size": 1050,
-          "sha512": "940915d833d34083447a2b87758d6aa5d9ff3303e09325b991dbd898cad3485786b4233e2d7ebffd328ed59504b5bfd10db559568c976284d2f1a07c7e3f8d99",
-          "sha256": "14864d105fcc384e32fefecd700f7ad5a526a833026cf12a079c16b1beee4965",
-          "sha1": "91336cda8cf70ae6454e5fcff343b1242a9fbc3c",
-          "md5": "7be3c69d0e5b1b171d89d70c1904efcc"
+          "name": "Utils-1.0.jar",
+          "url": "Utils-1.0.jar",
+          "size": 1237,
+          "sha512": "a5c0cdeaa6302d5a3271948dc56bab5b4a72b66fd3e9c1b1fe6016388019a91ab12fc985a27f68b38baa6c3bc851a98a5151ea49a46a051ea4d5bde701e33e18",
+          "sha256": "2eab9fdfbdd63e7223ba0dc802b95a8fcaf015523e0427903af9126537e2bf9a",
+          "sha1": "a8cab8810f0419355271222794d48cbaa2f0c3fb",
+          "md5": "e353990efb0e157ed1b61203ffdd12e6"
         }
       ]
     },
@@ -55,13 +55,13 @@
       ],
       "files": [
         {
-          "name": "StringUtils-1.0.jar",
-          "url": "StringUtils-1.0.jar",
-          "size": 1050,
-          "sha512": "940915d833d34083447a2b87758d6aa5d9ff3303e09325b991dbd898cad3485786b4233e2d7ebffd328ed59504b5bfd10db559568c976284d2f1a07c7e3f8d99",
-          "sha256": "14864d105fcc384e32fefecd700f7ad5a526a833026cf12a079c16b1beee4965",
-          "sha1": "91336cda8cf70ae6454e5fcff343b1242a9fbc3c",
-          "md5": "7be3c69d0e5b1b171d89d70c1904efcc"
+          "name": "Utils-1.0.jar",
+          "url": "Utils-1.0.jar",
+          "size": 1237,
+          "sha512": "a5c0cdeaa6302d5a3271948dc56bab5b4a72b66fd3e9c1b1fe6016388019a91ab12fc985a27f68b38baa6c3bc851a98a5151ea49a46a051ea4d5bde701e33e18",
+          "sha256": "2eab9fdfbdd63e7223ba0dc802b95a8fcaf015523e0427903af9126537e2bf9a",
+          "sha1": "a8cab8810f0419355271222794d48cbaa2f0c3fb",
+          "md5": "e353990efb0e157ed1b61203ffdd12e6"
         }
       ]
     }
