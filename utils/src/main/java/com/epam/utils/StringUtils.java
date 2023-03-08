@@ -2,7 +2,11 @@ package com.epam.utils;
 
 public class StringUtils {
     public static boolean isPositiveNumber(String str) {
-            return Float.parseFloat(str) > 0;
+            try{return Float.parseFloat(str)>0;}
+            catch(Exception e){
+                return false;
+        }
+
          //here magic will happen
     }
 }
