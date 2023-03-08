@@ -1,19 +1,26 @@
 plugins {
+    id "java-library"
+    id 'maven-publish'
     // id for library
     // id for maven to publish jar to local repository
 }
 
 java {
+    sourceCompatibility = JavaVersion.VERSION_17
 // provide sourceCompatibility
 }
 
 repositories {
+    mavenLocal()
 // provide repository, where required dependencies are located
 }
 
 publishing {
     publications {
         maven(MavenPublication) {
+            groupId= 'com.epam'
+            artifactId = 'StringUtils'
+            version = 1.0
 // provide groupId
 // provide artifactId
 // provide version
@@ -22,11 +29,18 @@ publishing {
         }
     }
 }
-
 //add Apache Apache Commons Lang 3.10 (or higher) dependency
+dependencies {
+    implementation('org.apache.commons:commons-lang3:3.12.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
 
 jar {
     manifest {
+        attributes 'Implementation-Title':'StringUtils',
+                'Implementation-Version': '1.0'
         //provide manifest with such attributes as 'Implementation-Title', 'Implementation-Version'
     }
 }
